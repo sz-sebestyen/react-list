@@ -2,7 +2,7 @@ const ListItem = (props) => {
   return (
     <li>
       <input type="checkbox" name={props.value} id={props.value + "-id"} />
-      <label htmlFor={props.value + "-id"}>props.value</label>
+      <label htmlFor={props.value + "-id"}>{props.value}</label>
     </li>
   );
 };

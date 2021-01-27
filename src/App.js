@@ -1,5 +1,5 @@
-import './App.css';
-import Ulist from "./components/Ulist";
+import "./App.css";
+import Ulist from "./components/Ulist/Ulist";
 
 const list = [
   "position",
